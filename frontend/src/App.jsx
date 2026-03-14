@@ -2,7 +2,7 @@ import { useState, useEffect, useRef} from 'react'
 import axios from 'axios'
 import React from 'react'
 // Direct backend URL
-const API = 'http://localhost:5000/api'
+const API = 'https://eduvisionplatform-production.up.railway.app/api'
 
 // ─────────────────────────────────────────────────────────────────────────────
 //  WELCOME TEXT
