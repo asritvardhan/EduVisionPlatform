@@ -1109,7 +1109,7 @@ export default function App() {
           form.append('audio', blob, 'engagement.webm')
 
           // Synchronous API call — gets result immediately
-          const res = await axios.post('http://localhost:5000/api/engagement', form)
+          const res = await axios.post(`${API}/engagement`, form)
           
           if (res.data.result) {
             const d = res.data.result
